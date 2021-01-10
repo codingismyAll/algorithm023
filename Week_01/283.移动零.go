@@ -3,7 +3,7 @@
  *
  * [283] 移动零
  */
-
+package week01
 // @lc code=start
 func moveZeroes(nums []int)  {
 	a := 0
@@ -23,7 +23,7 @@ func moveZeroes(nums []int)  {
 
 //解法2
 
-func moveZeroes(nums []int)  {
+func moveZeroes2(nums []int)  {
 	j := 0
 	for i:=0;i<len(nums);i++{
 		if nums[i] != 0{
